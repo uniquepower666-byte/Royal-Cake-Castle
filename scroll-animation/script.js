@@ -33,7 +33,7 @@ if (initialImage.complete) {
 }
 
 const updateImage = index => {
-  if (images[index]) {
+  if (images[index] && images[index].complete) {
     context.drawImage(images[index], 0, 0);
   }
 };
