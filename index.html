@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar">
+        <nav class="navbar">
         <div class="logo">Royal Cake Castle</div>
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
@@ -20,17 +20,21 @@
         <a href="tel:09930520688" class="cta-btn">Order Now</a>
     </nav>
 
-    <header id="home" class="hero">
-        <div class="hero-bg" style="background-image: url('images/hero_cake.png');"></div>
-        <div class="hero-content">
-            <h1 class="fade-in-up">Where Every Slice is a Royal Experience</h1>
-            <p class="fade-in-up delay-1">Freshly baked, beautifully crafted cakes tailored for your special moments.</p>
-            <div class="rating fade-in-up delay-2">
-                <span class="stars">★★★★½</span>
-                <span class="reviews">(142 Google Reviews)</span>
-            </div>
-            <a href="#menu" class="primary-btn fade-in-up delay-3">Explore Menu</a>
+    <div class="animation-wrapper">
+        <div class="sticky-canvas">
+            <canvas id="hero-lightpass"></canvas>
         </div>
+        
+    <header id="home" class="hero content-section">
+            <div class="hero-content">
+                <h1 class="fade-in-up">Where Every Slice is a Royal Experience</h1>
+                <p class="fade-in-up delay-1">Freshly baked, beautifully crafted cakes tailored for your special moments.</p>
+                <div class="rating fade-in-up delay-2">
+                    <span class="stars">★★★★½</span>
+                    <span class="reviews">(142 Google Reviews)</span>
+                </div>
+                <a href="#menu" class="primary-btn fade-in-up delay-3">Explore Menu</a>
+            </div>
     </header>
 
     <section id="about" class="about section">
@@ -39,6 +43,8 @@
             <p class="section-subtitle">Rated as one of the finest bakeries, we pride ourselves on delivering consistently fresh, delicious, and beautifully made cakes that melt in your mouth. From custom unicorn themes to classic Kesar Malai, our cakes are designed to make every occasion unforgettable.</p>
         </div>
     </section>
+</div> <!-- End animation-wrapper -->
+
 
     <section id="menu" class="menu section dark-bg">
         <div class="container">
